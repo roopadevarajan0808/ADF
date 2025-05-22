@@ -1,0 +1,9 @@
+{
+	"name": "pldrdrcb",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "51fef0c2-80eb-423a-81e3-91f38d29b80c",
+		"tenantId": "47816781-7540-4641-addf-09fce9a51117"
+	}
+}
