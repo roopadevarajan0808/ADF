@@ -1,5 +1,6 @@
 {
 	"name": "Oracle1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "Oracle",
@@ -8,15 +9,7 @@
 			"server": "localhost",
 			"authenticationType": "Basic",
 			"username": "roopa",
-			"password": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault1",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "oraclepwd",
-				"secretVersion": "a5e43b9089c6406ab24445bc0066405c"
-			}
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmM2M3N2VlMy04YzYyLTQzMjctYTk2OS1hNWRkNmM0MzhkOGUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SHIRoracle",
