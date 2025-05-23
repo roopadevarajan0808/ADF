@@ -7,7 +7,7 @@
 		"typeProperties": {
 			"server": "localhost",
 			"authenticationType": "Basic",
-			"username": "roopa",
+			"username": "HR",
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
