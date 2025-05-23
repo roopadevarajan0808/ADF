@@ -1,0 +1,26 @@
+{
+	"name": "Oracle1",
+	"properties": {
+		"annotations": [],
+		"type": "Oracle",
+		"version": "2.0",
+		"typeProperties": {
+			"server": "localhost",
+			"authenticationType": "Basic",
+			"username": "roopa",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "oraclepwd",
+				"secretVersion": "a5e43b9089c6406ab24445bc0066405c"
+			}
+		},
+		"connectVia": {
+			"referenceName": "SHIRoracle",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
