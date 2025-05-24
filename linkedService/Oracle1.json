@@ -4,9 +4,12 @@
 	"properties": {
 		"annotations": [],
 		"type": "Oracle",
+		"version": "2.0",
 		"typeProperties": {
-			"connectionString": "host=localhost;port=1521;sid=xepdb1;user id=roopa",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjOTgyNTQ0NS02ZmVjLTRhMGYtOGE4MS1jMTIzMmY4Njg4NDUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"server": "roopa-pc",
+			"authenticationType": "Basic",
+			"username": "roopa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NjdmMjdjNi1kNmUwLTQyMjYtOGM1Yi05MmIwYWIyZjdkYmQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SHIRoracle",
