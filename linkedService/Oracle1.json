@@ -9,7 +9,7 @@
 			"server": "roopa-pc",
 			"authenticationType": "Basic",
 			"username": "roopa",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NjdmMjdjNi1kNmUwLTQyMjYtOGM1Yi05MmIwYWIyZjdkYmQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2NzlhNjQ5Yi1kMmI0LTQzYzUtYjBlMi1iNGI4YjZjYzAzZjciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "SHIRoracle",
